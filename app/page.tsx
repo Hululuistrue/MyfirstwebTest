@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -60,12 +59,8 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            {/* 这里可以放置产品主图 */}
-            <div className="w-full h-[500px] bg-gray-100 dark:bg-gray-800 rounded-2xl">
-              {/* 替换为实际产品图片 */}
-              <div className="w-full h-full flex items-center justify-center text-gray-400">
-                产品展示图
-              </div>
+            <div className="w-full h-[500px] bg-gray-100 dark:bg-gray-800 rounded-2xl relative overflow-hidden">
+              {/* 产品图片部分 */}
             </div>
           </motion.div>
         </motion.div>
