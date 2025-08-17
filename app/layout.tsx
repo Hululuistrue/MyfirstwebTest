@@ -28,10 +28,9 @@ export default function RootLayout({
       <head>
         {/* Google AdSense Code */}
         <Script
-          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6115765135908661"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         <meta name="google-adsense-account" content="ca-pub-6115765135908661" />
       </head>
